@@ -1,4 +1,4 @@
-import * as ex from 'excalibur'
+import * as ex from '/excalibur'
 import { VIEWPORT_HEIGHT, VIEWPORT_WIDTH, SCALE, EVENT_SEND_PLAYER_UPDATE } from './src/constants'
 import { Player } from './src/actors/Players/Player.js'
 import { Floor } from './src/actors/Floor.js'
