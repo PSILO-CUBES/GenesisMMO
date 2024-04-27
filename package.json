@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "peerjs": "^1.5.2",
-    "excalibur": "*"
+    "excalibur": "0.27.0"
   }
 }
