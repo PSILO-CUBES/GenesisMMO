@@ -12,7 +12,8 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "peerjs": "^1.5.2",
-    "excalibur": "^0.27.0"
+    "excalibur": "^0.27.0",
+    "peer": "^1.0.2",
+    "peerjs": "^1.4.7"
   }
 }
