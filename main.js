@@ -1,4 +1,4 @@
-import * as ex from '/excalibur'
+import * as ex from 'excalibur'
 import { VIEWPORT_HEIGHT, VIEWPORT_WIDTH, SCALE, EVENT_SEND_PLAYER_UPDATE } from './src/constants'
 import { Player } from './src/actors/Players/Player.js'
 import { Floor } from './src/actors/Floor.js'
@@ -21,8 +21,6 @@ game.add(map)
 
 const player = new Player(200, 200, "RED")
 game.add(player)
-
-
 
 game.on("initialize", () => {
   const cameraStaregy = new Player_CameraStrategy(player, map)
